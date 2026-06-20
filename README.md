@@ -83,7 +83,3 @@ SmartSort/
   docs/github-publish.md
   docs/usage.md
 ```
-
-## License
-
-MIT
