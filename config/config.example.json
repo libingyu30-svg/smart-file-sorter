@@ -1,0 +1,35 @@
+{
+  "source_dir": "./inbox",
+  "fallback_dir": "Other",
+  "group_by_year_month": true,
+  "dry_run": false,
+  "deduplicate": true,
+  "log_file": "smartsort.log",
+  "rules": [
+    {
+      "name": "Images",
+      "extensions": [".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp"],
+      "target_dir": "Pictures"
+    },
+    {
+      "name": "Videos",
+      "extensions": [".mp4", ".mov", ".mkv", ".webm", ".avi"],
+      "target_dir": "Videos"
+    },
+    {
+      "name": "Audio",
+      "extensions": [".mp3", ".wav", ".flac", ".m4a", ".aac"],
+      "target_dir": "Music"
+    },
+    {
+      "name": "Documents",
+      "extensions": [".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".txt", ".md"],
+      "target_dir": "Documents"
+    },
+    {
+      "name": "Archives",
+      "extensions": [".zip", ".rar", ".7z", ".tar", ".gz"],
+      "target_dir": "Archives"
+    }
+  ]
+}
